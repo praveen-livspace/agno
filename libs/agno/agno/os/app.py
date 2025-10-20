@@ -13,7 +13,7 @@ from starlette.requests import Request
 
 from agno.agent.agent import Agent
 from agno.db.base import AsyncBaseDb, BaseDb
-from agno.knowledge.knowledge import Knowledge
+from agno.knowledge import Knowledge
 from agno.os.config import (
     AgentOSConfig,
     DatabaseConfig,
